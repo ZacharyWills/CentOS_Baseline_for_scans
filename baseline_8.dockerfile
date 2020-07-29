@@ -1,4 +1,4 @@
 FROM centos:8
 
-RUN yum update -yum
+RUN yum update -y
 CMD [ "/bin/bash"]
