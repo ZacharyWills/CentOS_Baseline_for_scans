@@ -9,7 +9,10 @@
 
 name: Baseline Anchore Container Scan
 
-on: push
+on: 
+  push:
+  schedule:
+  - cron: '0 0 * * 0'
 
 jobs:
   Anchore-Build-Scan:
